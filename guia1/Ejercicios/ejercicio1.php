@@ -8,6 +8,14 @@
 </head>
 <body>
     
-
+    <form action="result_ej1.php" method="get">
+        <label for="color">Elija un color</label><br>
+        <select name="color" id="color">
+            <option value="rojo">Rojo</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+        </select><hr>
+        <input type="submit" value="Continuar">
+    </form>
 </body>
 </html>
