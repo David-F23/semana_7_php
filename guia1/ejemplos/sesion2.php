@@ -1,3 +1,15 @@
+<?php
+    if(isset($_POST["user"]) && isset($_POST["clave"])){
+
+        session_start();
+        $_SESSION["UserSesion"] = $_POST["user"];
+
+    }else{
+
+        header("Location: sesion1.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,5 +20,6 @@
 </head>
 <body>
     
+    <p>Bienvenido/a : <?php echo $_SESSION['UserSesion']; ?></p>
 </body>
 </html>
