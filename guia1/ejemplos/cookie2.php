@@ -10,6 +10,7 @@
         setcookie($nombre, $valor, $tiempo_expi, $ruta, "");
     }else{
 
+        echo '<script>alert("Inicie sesión")</script>';
         header("Location: cookie1.php");
     }
 
@@ -27,7 +28,7 @@
     <h1>Ejemplo de uso de cookies</h1>
     <hr>
     
-    <p>Se ah creado una cookie de nombre: <b><?php echo $_COOKIE[$nombre]; ?></b></p>
-    <p>Con el valor de: <b><?php echo $_COOKIE[$valor]; ?></b></p>
+    <p>Se ah creado una cookie de nombre: <b><?php echo $nombre; ?></b></p>
+    <p>Con el valor de: <b><?php echo $_COOKIE[$nombre]; ?></b></p>
 </body>
 </html>
