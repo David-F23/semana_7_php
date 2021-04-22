@@ -21,5 +21,7 @@
 <body>
     
     <p>Bienvenido/a : <?php echo $_SESSION['UserSesion']; ?></p>
+
+    <a href="cerrar_sesion.php">cerrar sesion</a>
 </body>
 </html>
