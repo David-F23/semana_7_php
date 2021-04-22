@@ -10,7 +10,6 @@
         setcookie($nombre, $valor, $tiempo_expi, $ruta, "");
     }else{
 
-        echo '<script>alert("Inicie sesión")</script>';
         header("Location: cookie1.php");
     }
 
