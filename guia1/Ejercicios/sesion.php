@@ -8,7 +8,7 @@
         echo 'Ha iniciado sesión, Bienvenido/a: '. $_SESSION["SesionUsuario"];
     }else{
 
-        echo 'No se ha creado la sesión';
+        header('Location: ejercicio2.php');
     }
 ?>
 

@@ -36,10 +36,11 @@ body{
     letter-spacing: 3px;
 }
 
-.form-container form i{
+.form-container form img{
     padding: 0,5px;
     font-size: 20px;
-    color: #bbb;
+    width: 30px;
+    height: 30px;
 }
 
 .form-container form input{
