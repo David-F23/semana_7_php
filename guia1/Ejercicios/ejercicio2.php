@@ -10,19 +10,19 @@
 <body>
     
     <div class="form-container">
-        <form action="" id="form" method="post">
+        <form action="sesion.php" id="form" method="post">
             <h3>Login</h3>
             <div class="container">
                 <span class="icon"><i class="user"></i></span>
-                <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+                <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario" required>
             </div>
             <div class="container">
                 <span class="icon"><i class="correo"></i></span>
-                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="email" name="email" id="email" placeholder="Email" required>
             </div>
             <div class="container">
                 <span class="icon"><i class="contrasena"></i></span>
-                <input type="password" name="clave" id="clave" placeholder="Contraseña">
+                <input type="password" name="clave" id="clave" placeholder="Contraseña" required>
             </div>
             <input type="submit" value="login">
         </form>
