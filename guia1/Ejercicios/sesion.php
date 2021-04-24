@@ -1,3 +1,17 @@
+<?php
+    if(isset($_POST["usuario"]) && isset($_POST["email"]) && isset($_POST["clave"])){
+
+        session_start();
+
+        $_SESSION["SesionUsuario"] = $_POST["usuario"];
+
+        echo 'Ha iniciado sesión, Bienvenido/a: '. $_SESSION["SesionUsuario"];
+    }else{
+
+        echo 'No se ha creado la sesión';
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,6 +21,6 @@
     <title>Sesión</title>
 </head>
 <body>
-    
+    <h1></h1>
 </body>
 </html>
