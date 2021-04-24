@@ -8,7 +8,23 @@
 </head>
 <body>
     
-    
-
+    <div class="form-container">
+        <form action="" id="form" method="post">
+            <h3>Login</h3>
+            <div class="container">
+                <span class="icon"><i class="user"></i></span>
+                <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+            </div>
+            <div class="container">
+                <span class="icon"><i class="correo"></i></span>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="container">
+                <span class="icon"><i class="contrasena"></i></span>
+                <input type="password" name="clave" id="clave" placeholder="Contraseña">
+            </div>
+            <input type="submit" value="login">
+        </form>
+    </div>
 </body>
 </html>
